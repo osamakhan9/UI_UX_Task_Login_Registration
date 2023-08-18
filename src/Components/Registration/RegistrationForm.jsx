@@ -3,7 +3,8 @@ import '../style/reg.css'
 
 const RegistrationForm = () => {
   return (
-    <div >
+    <div>
+
       <form className='reg'>
 
         <h3>Registration</h3>
