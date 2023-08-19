@@ -1,7 +1,7 @@
-.container{
+.container {
 	height: auto;
 	width: 400px;
-	background-color: white;
+	background-color: black;
 	margin: auto;
 	border-radius: 10px;
 	backdrop-filter: blur(10px);
@@ -12,7 +12,7 @@
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: 35%;
+	background-size: 40%;
 	color: white;
 	text-align: left;
 	margin-top: 90px;
@@ -20,7 +20,8 @@
 	font-weight: 700;
 	line-height: 50px;
 }
-#btn{
+
+#btn {
 	display: block;
 	width: 90px;
 	margin-bottom: 40px;
@@ -28,3 +29,13 @@
 	color: black;
 	border: none;
 }
+
+/* @media only screen and (max-width: 1340px) {
+	.container {
+		background-image: url('https://images.unsplash.com/photo-1647888162325-346cc541bcc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+} */
